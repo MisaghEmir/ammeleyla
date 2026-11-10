@@ -20,7 +20,7 @@ const categories: Category[] = [
     slug: "women",
     title: "زنانه",
     description: "جدیدترین لباس‌ها و پوشاک زنانه را در فروشگاه عمه لیلا مشاهده کنید.",
-    image: "/images/categories/women.jpg",
+    image: "/images/hero/Modern_Womens.png",
     subcategories: [
       { title: "مانتو", slug: "womens-manteau" },
       { title: "شومیز", slug: "womens-shirts" },
@@ -34,7 +34,7 @@ const categories: Category[] = [
     slug: "men",
     title: "مردانه",
     description: "انواع پوشاک مردانه شامل تیشرت، پیراهن، شلوار، هودی و کاپشن.",
-    image: "/images/categories/men.jpg",
+    image: "/images/hero/New_Collection.png",
     subcategories: [
       { title: "تیشرت مردانه", slug: "mens-tshirts" },
       { title: "پیراهن مردانه", slug: "mens-shirts" },
@@ -48,7 +48,7 @@ const categories: Category[] = [
     slug: "kids",
     title: "بچگانه",
     description: "پوشاک کودک و نوجوان برای دخترها و پسرها با مدل‌های متنوع.",
-    image: "/images/categories/kids.jpg",
+    image: "/images/hero/kids.png",
     subcategories: [
       { title: "دخترانه", slug: "girls" },
       { title: "پسرانه", slug: "boys" },
