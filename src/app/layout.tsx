@@ -7,6 +7,7 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import QueryProvider from "@/providers/QueryProvider";
+import { Analytics } from "@vercel/analytics/next";
 
 const geist = Geist({
   subsets: ["latin"],
@@ -69,6 +70,7 @@ export default function RootLayout({
 
           <Footer />
         </QueryProvider>
+        <Analytics />
       </body>
     </html>
   );
